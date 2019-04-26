@@ -1,0 +1,30 @@
+{
+  "name": "riot-v3-project",
+  "description": " basic riot library version 3 project with giphy api .. ",
+  "main": "index.html",
+  "keywords": [
+    "riot",
+    "giphy",
+    "api",
+    "front-end",
+    "ui",
+    "search",
+    "photo",
+    "griphy api",
+    "light weight library"
+  ],
+  "authors": [
+    "imed jaberi"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/3imed-jaberi/fireghify",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "riot": "^3.13.2",
+    "milligram": "^1.3.0"
+  }
+}
