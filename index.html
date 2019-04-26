@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <!-- My Title .. -->
+       <title> FireGiphy - RIOT WITH GHIFY API </title>
+       <!-- Style Libs .. -->
+       <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+       <link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
+       <!-- My Style CSS .. -->
+       <link rel="stylesheet" href="public/style/style.css">
+       <!-- Style of eash Tags .. -->
+       <link rel="stylesheet" href="public/style/spinner.css">
+       <link rel="stylesheet" href="public/style/giphy.css">
+       <link rel="stylesheet" href="public/style/search.css">
+       <!-- RIOT Library .. -->
+       <script src="bower_components/riot/riot+compiler.min.js"></script>
+</head>
+<body class="container">
+        <!-- Header Of The App .. -->
+          <header>
+
+             <h1> FireGhify </h1> 
+             <!-- Search Tag ( Components ) .. -->  
+             <search></search>    
+
+          </header>
+            <!-- Result Tag ( Components ) .. -->  
+          <results></results>
+
+
+    <!-- Mixin -->
+    <script src="src/mixins/giphy.js" ></script>
+
+    <!-- Load All Tags (Components ) -->
+    <script src="src/tags/search.tag" type="riot/tag"></script>
+    <script src="src/tags/results.tag" type="riot/tag"></script>
+    <script src="src/tags/child tags/spinner.tag" type="riot/tag"></script>
+    <script src="src/tags/child tags/giphy.tag" type="riot/tag"></script>
+    <!-- Mount all tags -->
+    <script>
+      riot.mount('*');
+    </script>
+
+</body>
+</html>
